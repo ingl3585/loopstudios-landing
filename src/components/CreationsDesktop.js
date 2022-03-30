@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import data from '../data-desktop';
 
 const CreationsDesktop = () => {
+	// eslint-disable-next-line
 	const [cards, setCards] = useState(data);
 	return (
 		<section className='creations-desktop'>

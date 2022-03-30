@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import data from '../data-mobile';
 
 const Creations = () => {
+	// eslint-disable-next-line
 	const [cards, setCards] = useState(data);
 	return (
 		<section className='creations-mobile'>
