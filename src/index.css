@@ -148,6 +148,7 @@ button {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
+  place-items: center;
 } 
 
 .creations-mobile .btn-container {
@@ -235,7 +236,6 @@ button {
   .footer .social {
     display: flex;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -250,6 +250,22 @@ button {
     font-size: 64px;
     margin-top: 100px;
   }
+
+  .interactive {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .interactive-text {
+    position: absolute;
+    width: 600px;
+    right: 0;
+    bottom: 50px;
+    background-color: #FFF;
+    padding: 50px;
+    max-width: 900px;
+  }
+
   .creations-mobile {
     display: none;
   }
@@ -257,6 +273,7 @@ button {
   .creations-desktop {
     display: block;
     padding: 50px 20px;
+    margin-top: 50px;
   }
 
   .creations-desktop .title {
@@ -317,6 +334,10 @@ button {
 }
 
 @media screen and (min-width: 1280px) {
+  .interactive-text {
+    width: 800px;
+    right: 200px;
+  }
   .creations-desktop .title {
     max-width: 1100px;
   }
