@@ -162,3 +162,42 @@ button {
   background-color: black;
   color: #FFF;
 }
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  color: #FFF;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer .logo img {
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  margin-bottom: 30px;
+}
+
+.footer ul li {
+  margin-bottom: 20px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .social li {
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.footer .copyright {
+  font-family: 'Alata', sans-serif;
+  color: var(--dark-gray);
+  font-size: 15px;
+}

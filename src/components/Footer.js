@@ -8,7 +8,7 @@ const Footer = () => {
 		<>
 			<footer className='footer'>
 				<div>
-					<div>
+					<div className='logo'>
 						<img src={logo} alt='logo' />
 					</div>
 					<ul>
@@ -30,7 +30,7 @@ const Footer = () => {
 					</ul>
 				</div>
 				<div>
-					<ul>
+					<ul className='social'>
 						<li>
 							<GrFacebook />
 						</li>
@@ -45,7 +45,9 @@ const Footer = () => {
 						</li>
 					</ul>
 				</div>
-				<div>&copy; 2022 LoopStudios. All rights reserved.</div>
+				<div className='copyright'>
+					&copy; 2022 LoopStudios. All rights reserved.
+				</div>
 			</footer>
 		</>
 	);
