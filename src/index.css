@@ -17,6 +17,72 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
 p {
+  font-family: 'Alata', sans-serif;
   font-size: 15px;
+}
+
+button {
+  background-color: transparent;
+  font-family: 'Alata', sans-serif;
+  border: 0;
+  color: white;
+}
+
+/* Header */
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.header nav {
+  display: none;
+}
+
+.header .menu-btn {
+  padding: 20px;
+}
+
+.header .menu-btn .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 0 0 5px;
+}
+
+/* Showcase */
+.showcase {
+  background: url('./images/image-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.showcase .overlay {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  padding: 0 20px;
+}
+
+.showcase .overlay h1 {
+  color: #FFF;
+  font-size: 46px;
+  line-height: 1.1;
+  border: 2px solid white;
+  padding: 20px;
 }
