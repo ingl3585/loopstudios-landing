@@ -21,14 +21,23 @@ ul {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 p {
   font-family: 'Alata', sans-serif;
   font-size: 15px;
+  color: var(--very-dark-gray);
 }
 
 button {
@@ -54,6 +63,7 @@ button {
 
 .header .menu-btn {
   padding: 20px;
+  cursor: pointer;
 }
 
 .header .menu-btn .bar {
@@ -85,4 +95,70 @@ button {
   line-height: 1.1;
   border: 2px solid white;
   padding: 20px;
+}
+
+/* Interactive */
+
+.interactive {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.interactive-text {
+  padding: 0 40px;
+}
+
+.interactive .interactive-text h2 {
+  padding: 30px 0 20px;
+  line-height: 1.3;
+}
+
+/* Creations-Mobile */
+
+.creations-mobile {
+  padding: 0 20px 50px;
+}
+
+.creations-mobile h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.creations-mobile article {
+  position: relative;
+}
+
+.creations-mobile h3 {
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 20px 20px;
+  color: #FFF;
+  font-size: 24px;
+  width: 150px;
+  line-height: 1.3;
+}
+
+.creations-mobile section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+} 
+
+.creations-mobile .btn-container {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.creations-mobile .btn-container .btn {
+  border: 2px solid black;
+  padding: 10px 30px;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.creations-mobile .btn-container .btn:hover {
+  background-color: black;
+  color: #FFF;
 }

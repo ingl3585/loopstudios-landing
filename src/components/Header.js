@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from '../images/logo.svg';
+import logo from '../images/logo.svg';
 
 const Header = () => {
 	return (
 		<>
 			<header className='header'>
 				<div className='logo'>
-					<img src={Logo} alt='LoopStudios' />
+					<img src={logo} alt='LoopStudios' />
 				</div>
 				<nav>
 					<ul>
